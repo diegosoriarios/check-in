@@ -20,7 +20,10 @@
   "devDependencies": {
     "@ember/optional-features": "^1.0.0",
     "babel-eslint": "^10.0.3",
+    "bootstrap": "^4.3.1",
     "broccoli-asset-rev": "^3.0.0",
+    "ember-auto-import": "^1.5.3",
+    "ember-bootstrap": "^3.0.2",
     "ember-cli": "~3.13.1",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.11.1",
@@ -48,5 +51,14 @@
   },
   "engines": {
     "node": "8.* || >= 10.*"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pusher": "^3.0.0",
+    "pusher-js": "^5.0.2",
+    "uuid": "^3.3.3"
   }
 }
